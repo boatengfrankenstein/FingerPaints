@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.pitt.cs1635.mjm217.prog2.RecognizeView" >
+
+    <item android:id="@+id/item_recognize"
+        android:title="@string/item_recognize"
+        android:showAsAction="withText|ifRoom" />
+
+    <item
+        android:id="@+id/item_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom"
+        android:title="Share"
+        android:titleCondensed="Share">
+    </item>
+
+</menu>

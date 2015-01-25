@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/draw_layout"
+    tools:context="edu.pitt.cs1635.mjm217.prog2.RecognizeView.RecognizeFragment">
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        style="?android:attr/buttonBarStyle">
+            <ImageButton android:id="@+id/clear_button" style="?android:attr/buttonBarButtonStyle" android:scaleType="fitCenter" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1" android:src="@drawable/clear"/>
+            <ImageButton android:id="@+id/undo_button" style="?android:attr/buttonBarButtonStyle" android:scaleType="fitCenter" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1" android:src="@drawable/undo"/>
+            <ImageButton android:id="@+id/paint_color" style="?android:attr/buttonBarButtonStyle" android:scaleType="fitCenter" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1" android:src="@drawable/coloricon"/>
+            <ImageButton android:id="@+id/paint_button" style="?android:attr/buttonBarButtonStyle" android:scaleType="fitCenter" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1" android:src="@drawable/paint"/>
+            <ImageButton android:id="@+id/save_button" style="?android:attr/buttonBarButtonStyle" android:scaleType="fitCenter" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1" android:src="@drawable/save"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recognized_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_bar"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/recognized_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>

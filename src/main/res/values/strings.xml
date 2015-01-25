@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finger Paints</string>
+    <string name="title_section1">Draw</string>
+    <string name="title_section2">Saved Drawings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="item_recognize">Recognize Text</string>
+    <string name="recognized_text">No Text Recognized</string>
+    <string name="options">Options</string>
+
+    <string-array name="colors_array">
+        <item>Color.RED</item>
+        <item>Color.ORANGE</item>
+        <item>Color.YELLOW</item>
+        <item>Color.GREEN</item>
+        <item>Color.BLUE</item>
+        <item>Color.PURPLE</item>
+    </string-array>
+
+    <string name="title_activity_save">Saved Drawings</string>
+
+</resources>
